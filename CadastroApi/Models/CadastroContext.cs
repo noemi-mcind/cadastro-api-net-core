@@ -12,5 +12,6 @@ namespace CadastroApi.Models
         }
 
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Empresa> Empresas { get; set; }
     }
 }

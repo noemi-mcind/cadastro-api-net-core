@@ -23,6 +23,7 @@ namespace CadastroApi
             services.AddDbContext<CadastroContext>(opt =>
                                                opt.UseInMemoryDatabase("Cadastro"));
             services.AddControllers();
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
