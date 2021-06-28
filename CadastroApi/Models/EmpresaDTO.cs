@@ -9,10 +9,15 @@ namespace CadastroApi.Models
     public class EmpresaDTO
     {
         public long Id { get; set; }
-        public string NomeDaEmpresa { get; set; }
-        public string EnderecoDaEmpresa { get; set; }
-        public int Telefone { get; set; }
+        public string NomeEmpresa { get; set; }
         public long CNPJ { get; set; }
+        public int Telefone { get; set; }
+        public string Responsavel { get; set; }
+        public long CPF { get; set; }
+        public string Endereco { get; set; }
+        public string Cidade { get; set; }
+        public long CEP { get; set; }
+        public string Estado { get; set; }
         public string Email { get; set; }
     }
 }
